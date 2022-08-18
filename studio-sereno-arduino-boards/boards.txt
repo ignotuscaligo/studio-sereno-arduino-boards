@@ -1,0 +1,37 @@
+leonardo_midi_switch.name=Leonardo - MIDI Switch
+leonardo_midi_switch.vid.0=0x2341
+leonardo_midi_switch.pid.0=0x0036
+leonardo_midi_switch.vid.1=0x2341
+leonardo_midi_switch.pid.1=0x8036
+leonardo_midi_switch.vid.2=0x2A03
+leonardo_midi_switch.pid.2=0x0036
+leonardo_midi_switch.vid.3=0x2A03
+leonardo_midi_switch.pid.3=0x8036
+
+leonardo_midi_switch.upload.tool=avrdude
+leonardo_midi_switch.upload.protocol=avr109
+leonardo_midi_switch.upload.maximum_size=28672
+leonardo_midi_switch.upload.maximum_data_size=2560
+leonardo_midi_switch.upload.speed=57600
+leonardo_midi_switch.upload.disable_flushing=true
+leonardo_midi_switch.upload.use_1200bps_touch=true
+leonardo_midi_switch.upload.wait_for_upload_port=true
+
+leonardo_midi_switch.bootloader.tool=avrdude
+leonardo_midi_switch.bootloader.low_fuses=0xff
+leonardo_midi_switch.bootloader.high_fuses=0xd8
+leonardo_midi_switch.bootloader.extended_fuses=0xcb
+leonardo_midi_switch.bootloader.file=caterina/Caterina-Leonardo.hex
+leonardo_midi_switch.bootloader.unlock_bits=0x3F
+leonardo_midi_switch.bootloader.lock_bits=0x2F
+
+leonardo_midi_switch.build.mcu=atmega32u4
+leonardo_midi_switch.build.f_cpu=16000000L
+leonardo_midi_switch.build.vid=0x2341
+leonardo_midi_switch.build.pid=0x8036
+leonardo_midi_switch.build.usb_product="MIDI Switch"
+leonardo_midi_switch.build.usb_manufacturer="Studio Sereno"
+leonardo_midi_switch.build.board=AVR_LEONARDO
+leonardo_midi_switch.build.core=arduino
+leonardo_midi_switch.build.variant=leonardo-midi-switch
+leonardo_midi_switch.build.extra_flags={build.usb_flags}

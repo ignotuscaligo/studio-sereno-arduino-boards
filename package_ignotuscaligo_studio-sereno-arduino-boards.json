@@ -1,0 +1,45 @@
+{
+    "packages": [
+        {
+            "name": "studio-sereno-arduino-boards",
+            "maintainer": "Elijah Kleeman",
+            "websiteURL": "https://github.com/ignotuscaligo/studio-sereno-arduino-boards",
+            "email": "contact@elijahk.com",
+            "platforms": [
+                {
+                    "name": "Studio Sereno Arduino Boards",
+                    "architecture": "avr",
+                    "version": "1.8.5",
+                    "category": "Arduino",
+                    "help": {
+                        "online": "http://www.arduino.cc/en/Reference/HomePage"
+                    },
+                    "url": "http://downloads.arduino.cc/cores/staging/avr-1.8.5.tar.bz2",
+                    "archiveFileName": "avr-1.8.5.tar.bz2",
+                    "checksum": "SHA-256:ca22143a3f5d32c4b693211d99aedce358e2e0a2ab90a58c05d3afc1b56436a4",
+                    "size": "7160121",
+                    "boards": [
+                        {"name": "Arduino Leonardo"},
+                    ],
+                    "toolsDependencies": [
+                        {
+                          "packager": "arduino",
+                          "name": "avr-gcc",
+                          "version": "7.3.0-atmel3.6.1-arduino7"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "avrdude",
+                          "version": "6.3.0-arduino17"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "arduinoOTA",
+                          "version": "1.3.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
