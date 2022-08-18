@@ -16,8 +16,8 @@
                     },
                     "url": "https://github.com/ignotuscaligo/studio-sereno-arduino-boards/blob/master/studio-sereno-arduino-boards-1.0.0.zip?raw=true",
                     "archiveFileName": "studio-sereno-arduino-boards-1.0.0.zip",
-                    "checksum": "SHA-256:4a93e62aa23b773e82e453921f05ee5fc6008dcb398d1b813d98646938f98972",
-                    "size": "5771925",
+                    "checksum": "SHA-256:b470f2a3546503ad77feb6babd0da6a156b75d6559ebf113be28feaf84472ded",
+                    "size": "5771926",
                     "boards": [
                         {"name": "Arduino Leonardo"}
                     ],
