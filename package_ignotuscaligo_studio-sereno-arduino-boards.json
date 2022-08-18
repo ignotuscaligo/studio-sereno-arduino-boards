@@ -14,10 +14,10 @@
                     "help": {
                         "online": "http://www.arduino.cc/en/Reference/HomePage"
                     },
-                    "url": "http://downloads.arduino.cc/cores/staging/avr-1.8.5.tar.bz2",
-                    "archiveFileName": "avr-1.8.5.tar.bz2",
-                    "checksum": "SHA-256:ca22143a3f5d32c4b693211d99aedce358e2e0a2ab90a58c05d3afc1b56436a4",
-                    "size": "7160121",
+                    "url": "https://github.com/ignotuscaligo/studio-sereno-arduino-boards/blob/master/studio-sereno-arduino-boards-1.0.0.zip?raw=true",
+                    "archiveFileName": "studio-sereno-arduino-boards-1.0.0.zip",
+                    "checksum": "SHA-256:4a93e62aa23b773e82e453921f05ee5fc6008dcb398d1b813d98646938f98972",
+                    "size": "5771925",
                     "boards": [
                         {"name": "Arduino Leonardo"},
                     ],
